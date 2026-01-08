@@ -5,10 +5,7 @@ public class functions{
         return add;
     }
     public static void main(String[] args){
-        Scanner sc=new Scanner(System.in);
-        int a=sc.nextInt();
-        int b=sc.nextInt();
-        int result= add(a, b);
+        int result= add(8,9);
         System.out.println(result);
     }
 }
